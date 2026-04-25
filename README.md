@@ -47,7 +47,7 @@ Requires JDK 25 (bundled with the Minecraft 1.21.10 launcher).
 
 ```bash
 git clone https://github.com/Ma3auka/AlaLoot.git
-cd AlaLoot/AlaLoot
+cd AlaLoot
 ./gradlew build
 # Output: build/libs/alaloot-26.1.2-<version>.jar
 ```

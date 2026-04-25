@@ -8,9 +8,18 @@ bin/
 **/bin/
 repo/
 run/
+.run/
 runs/
 run-data/
 src/generated/
+
+# NeoForge defensive negations — never ignore wrapper or anything legitimately under src/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+!**/src/**/out/
+!**/src/**/bin/
+!**/src/**/run/
+!**/src/**/repo/
 
 # IDE
 .idea/
