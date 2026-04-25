@@ -27,32 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Internal
 - Remove dead hierarchical translation keys from lang files.
 
-## [1.2.4] — 2026-04-25
-
-### Fixed
-- Remove dead hierarchical translation keys from all 8 lang files (leftover from v1.2.1 first-pass attempt).
-
-### Changed
-- Add Curse Roll probability line to `/alaloot stats` output.
-
-## [1.2.3] — 2026-04-25
-
-### Added
-- Add Curse Roll: 5% passive chance on mob kill to drop a random tool (wooden–netherite) at 1 durability when the XP-based loot roll fails.
-
-## [1.2.2] — 2026-04-25
-
-### Fixed
-- Config screen entries now display translated labels (flat `alaloot.configuration.*` key format) for all 8 locales.
-
-## [1.2.1] — 2026-04-25
-
-### Changed
-- Increase mob kill XP reward from 10 to 30 points per kill.
-
-### Fixed
-- Config screen displayed raw `alaloot.configuration.*` keys instead of readable text — added translations for all sections and entries across all 8 locales.
-
 ## [1.2.0] — 2026-04-25
 
 ### Added
@@ -72,5 +46,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bundled 256×256 `logo.png` for the in-game Mods screen.
 - Jar artifact renamed to `alaloot-26.1.2-1.2.0.jar` (CurseForge convention).
 
-[Unreleased]: https://github.com/Ma3auka/AlaLoot/compare/v1.2.0...HEAD
-[1.2.0]: https://github.com/Ma3auka/AlaLoot/releases/tag/v1.2.0
+[1.3.0]: https://github.com/Ma3auka/AlaLoot/commit/31455e4
+[1.2.0]: https://github.com/Ma3auka/AlaLoot/commit/8e6a7ab
