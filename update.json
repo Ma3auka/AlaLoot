@@ -2,7 +2,9 @@
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/alaloot",
   "promos": {
     "26.1.2-recommended": "1.3.0",
-    "26.1.2-latest": "1.3.0"
+    "26.1.2-latest": "1.3.0",
+    "1.21.1-recommended": "1.3.0",
+    "1.21.1-latest": "1.3.0"
   },
   "26.1.2": {
     "1.3.0": "Add Curse Roll feature, increase mob XP reward, fix config screen labels across 8 locales.",
@@ -11,5 +13,8 @@
     "1.2.2": "Fix config screen entry labels for all 8 locales.",
     "1.2.1": "Increase mob kill XP reward (10 -> 30). Fix config screen translation keys.",
     "1.2.0": "Initial public release. See CHANGELOG.md for full notes."
+  },
+  "1.21.1": {
+    "1.3.0": "Backport of 1.3.0 to Minecraft 1.21.1 / NeoForge 21.1.113 / Java 21. Same gameplay as the 1.21.10 release."
   }
 }
