@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] — 2026-04-25 (1.21.1 branch only)
+
+### Fixed
+- 1.21.1 backport jar failed to load with `InvalidModFileException: Missing ModLoader in file`. The `neoforge.mods.toml` template did not declare `modLoader` / `loaderVersion`, which are required on NeoForge 21.1.x (only defaulted on NeoForge 26.1+). Added `modLoader="javafml"` and `loaderVersion="[4,)"`.
+- Restored `pack.mcmeta` (`pack_format=34`) on the 1.21.1 branch. NeoForge 26.1 auto-generates it but NeoForge 21.1.x does not, so the file must ship inside the jar.
+
 ## [1.3.0] — 2026-04-25
 
 ### Added
