@@ -14,6 +14,7 @@
   "commands.alaloot.stats.level": "XP level: %s",
   "commands.alaloot.stats.chance": "Drop chance: %s%% (equals your XP level, capped at 100)",
   "commands.alaloot.stats.pool": "Items in pool: %s",
+  "commands.alaloot.stats.curse": "Curse roll: %s%% (on failed loot roll)",
 
   "commands.alaloot.info.held": "In hand: %s",
   "commands.alaloot.info.held_empty": "Hand is empty.",
@@ -30,5 +31,34 @@
   "commands.alaloot.blacklist.not_found": "Not in blacklist: %s",
 
   "alaloot.configuration.title": "AlaLoot",
-  "alaloot.configuration.section.alaloot.server.toml": "AlaLoot Server Settings"
+  "alaloot.configuration.section.alaloot.server.toml": "AlaLoot Server Settings",
+
+  "alaloot.configuration.general": "General",
+
+  "alaloot.configuration.mobs": "Mobs",
+
+  "alaloot.configuration.blocks": "Blocks",
+
+  "alaloot.configuration.bosses": "Bosses",
+
+  "alaloot.configuration.blacklist": "Blacklist",
+
+  "alaloot.configuration.enabled": "Enable AlaLoot",
+  "alaloot.configuration.enableMobDrop": "Enable mob drops",
+  "alaloot.configuration.enableBlockDrop": "Enable block drops",
+  "alaloot.configuration.enableNetherBlocks": "Enable Nether block drops",
+  "alaloot.configuration.enableEndBlocks": "Enable End block drops",
+  "alaloot.configuration.enableBossDrops": "Enable boss drops",
+  "alaloot.configuration.dragonEggStackSize": "Dragon egg stack size",
+  "alaloot.configuration.witherStarStackSize": "Wither star stack size",
+  "alaloot.configuration.wardenDiamondStackSize": "Warden diamond stack size",
+  "alaloot.configuration.elderGuardianSpongeStackSize": "Elder guardian sponge stack size",
+  "alaloot.configuration.enableDragonDrop": "Enable Ender Dragon drop",
+  "alaloot.configuration.enableWitherDrop": "Enable Wither drop",
+  "alaloot.configuration.enableWardenDrop": "Enable Warden drop",
+  "alaloot.configuration.enableElderGuardianDrop": "Enable Elder Guardian drop",
+  "alaloot.configuration.mobBlacklist": "Mob blacklist",
+  "alaloot.configuration.blockBlacklist": "Block blacklist",
+  "alaloot.configuration.itemDropBlacklist": "Item drop blacklist",
+  "alaloot.configuration.modBlacklist": "Mod blacklist"
 }

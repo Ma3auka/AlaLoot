@@ -14,6 +14,7 @@
   "commands.alaloot.stats.level": "Nível de XP: %s",
   "commands.alaloot.stats.chance": "Chance de drop: %s%% (igual ao seu nível de XP, máximo 100)",
   "commands.alaloot.stats.pool": "Itens no pool: %s",
+  "commands.alaloot.stats.curse": "Rolagem amaldiçoada: %s%% (caso o drop não ocorra)",
 
   "commands.alaloot.info.held": "Na mão: %s",
   "commands.alaloot.info.held_empty": "Mão vazia.",
@@ -30,5 +31,34 @@
   "commands.alaloot.blacklist.not_found": "Não está na blacklist: %s",
 
   "alaloot.configuration.title": "AlaLoot",
-  "alaloot.configuration.section.alaloot.server.toml": "Configurações do servidor AlaLoot"
+  "alaloot.configuration.section.alaloot.server.toml": "Configurações do servidor AlaLoot",
+
+  "alaloot.configuration.general": "Geral",
+
+  "alaloot.configuration.mobs": "Mobs",
+
+  "alaloot.configuration.blocks": "Blocos",
+
+  "alaloot.configuration.bosses": "Chefões",
+
+  "alaloot.configuration.blacklist": "Lista negra",
+
+  "alaloot.configuration.enabled": "Ativar AlaLoot",
+  "alaloot.configuration.enableMobDrop": "Ativar drops de mobs",
+  "alaloot.configuration.enableBlockDrop": "Ativar drops de blocos",
+  "alaloot.configuration.enableNetherBlocks": "Ativar drops de blocos do Nether",
+  "alaloot.configuration.enableEndBlocks": "Ativar drops de blocos do End",
+  "alaloot.configuration.enableBossDrops": "Ativar drops de chefões",
+  "alaloot.configuration.dragonEggStackSize": "Tamanho da pilha do ovo do dragão",
+  "alaloot.configuration.witherStarStackSize": "Tamanho da pilha da estrela do Wither",
+  "alaloot.configuration.wardenDiamondStackSize": "Tamanho da pilha de diamantes do Warden",
+  "alaloot.configuration.elderGuardianSpongeStackSize": "Tamanho da pilha de esponjas do Guardião Ancião",
+  "alaloot.configuration.enableDragonDrop": "Ativar drop do Dragão do End",
+  "alaloot.configuration.enableWitherDrop": "Ativar drop do Wither",
+  "alaloot.configuration.enableWardenDrop": "Ativar drop do Warden",
+  "alaloot.configuration.enableElderGuardianDrop": "Ativar drop do Guardião Ancião",
+  "alaloot.configuration.mobBlacklist": "Lista negra de mobs",
+  "alaloot.configuration.blockBlacklist": "Lista negra de blocos",
+  "alaloot.configuration.itemDropBlacklist": "Lista negra de itens",
+  "alaloot.configuration.modBlacklist": "Lista negra de mods"
 }

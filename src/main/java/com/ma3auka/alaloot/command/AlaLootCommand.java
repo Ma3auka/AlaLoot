@@ -99,6 +99,9 @@ public final class AlaLootCommand {
         ctx.getSource().sendSuccess(() -> tr("commands.alaloot.stats.chance",
                 String.format("%.0f", chance)), false);
         ctx.getSource().sendSuccess(() -> tr("commands.alaloot.stats.pool", poolSize), false);
+        double curseChance = MobLootEventHandler.curseChance() * 100;
+        ctx.getSource().sendSuccess(() -> tr("commands.alaloot.stats.curse",
+                String.format("%.0f", curseChance)), false);
         return 1;
     }
 

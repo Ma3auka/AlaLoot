@@ -14,6 +14,7 @@
   "commands.alaloot.stats.level": "Niveau d'XP : %s",
   "commands.alaloot.stats.chance": "Chance de drop : %s%% (égale à ton niveau d'XP, plafonnée à 100)",
   "commands.alaloot.stats.pool": "Objets dans le pool : %s",
+  "commands.alaloot.stats.curse": "Jet maudit : %s%% (si le drop échoue)",
 
   "commands.alaloot.info.held": "En main : %s",
   "commands.alaloot.info.held_empty": "Main vide.",
@@ -30,5 +31,34 @@
   "commands.alaloot.blacklist.not_found": "Pas dans la liste noire : %s",
 
   "alaloot.configuration.title": "AlaLoot",
-  "alaloot.configuration.section.alaloot.server.toml": "Paramètres serveur d'AlaLoot"
+  "alaloot.configuration.section.alaloot.server.toml": "Paramètres serveur d'AlaLoot",
+
+  "alaloot.configuration.general": "Général",
+
+  "alaloot.configuration.mobs": "Monstres",
+
+  "alaloot.configuration.blocks": "Blocs",
+
+  "alaloot.configuration.bosses": "Boss",
+
+  "alaloot.configuration.blacklist": "Liste noire",
+
+  "alaloot.configuration.enabled": "Activer AlaLoot",
+  "alaloot.configuration.enableMobDrop": "Activer les drops de monstres",
+  "alaloot.configuration.enableBlockDrop": "Activer les drops de blocs",
+  "alaloot.configuration.enableNetherBlocks": "Activer les drops du Nether",
+  "alaloot.configuration.enableEndBlocks": "Activer les drops de l'End",
+  "alaloot.configuration.enableBossDrops": "Activer les drops de boss",
+  "alaloot.configuration.dragonEggStackSize": "Taille de pile de l'œuf de dragon",
+  "alaloot.configuration.witherStarStackSize": "Taille de pile de l'étoile du Wither",
+  "alaloot.configuration.wardenDiamondStackSize": "Taille de pile de diamants du Gardien",
+  "alaloot.configuration.elderGuardianSpongeStackSize": "Taille de pile d'éponges du Grand Gardien",
+  "alaloot.configuration.enableDragonDrop": "Activer le drop du Dragon de l'End",
+  "alaloot.configuration.enableWitherDrop": "Activer le drop du Wither",
+  "alaloot.configuration.enableWardenDrop": "Activer le drop du Gardien",
+  "alaloot.configuration.enableElderGuardianDrop": "Activer le drop du Grand Gardien",
+  "alaloot.configuration.mobBlacklist": "Liste noire des monstres",
+  "alaloot.configuration.blockBlacklist": "Liste noire des blocs",
+  "alaloot.configuration.itemDropBlacklist": "Liste noire des objets",
+  "alaloot.configuration.modBlacklist": "Liste noire des mods"
 }

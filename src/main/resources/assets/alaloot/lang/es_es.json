@@ -14,6 +14,7 @@
   "commands.alaloot.stats.level": "Nivel de EXP: %s",
   "commands.alaloot.stats.chance": "Probabilidad de drop: %s%% (igual a tu nivel de EXP, máximo 100)",
   "commands.alaloot.stats.pool": "Objetos en el pool: %s",
+  "commands.alaloot.stats.curse": "Tiro maldito: %s%% (si el drop falla)",
 
   "commands.alaloot.info.held": "En la mano: %s",
   "commands.alaloot.info.held_empty": "La mano está vacía.",
@@ -30,5 +31,34 @@
   "commands.alaloot.blacklist.not_found": "No está en la lista negra: %s",
 
   "alaloot.configuration.title": "AlaLoot",
-  "alaloot.configuration.section.alaloot.server.toml": "Configuración del servidor AlaLoot"
+  "alaloot.configuration.section.alaloot.server.toml": "Configuración del servidor AlaLoot",
+
+  "alaloot.configuration.general": "General",
+
+  "alaloot.configuration.mobs": "Mobs",
+
+  "alaloot.configuration.blocks": "Bloques",
+
+  "alaloot.configuration.bosses": "Jefes",
+
+  "alaloot.configuration.blacklist": "Lista negra",
+
+  "alaloot.configuration.enabled": "Activar AlaLoot",
+  "alaloot.configuration.enableMobDrop": "Activar drops de mobs",
+  "alaloot.configuration.enableBlockDrop": "Activar drops de bloques",
+  "alaloot.configuration.enableNetherBlocks": "Activar drops de bloques del Nether",
+  "alaloot.configuration.enableEndBlocks": "Activar drops de bloques del End",
+  "alaloot.configuration.enableBossDrops": "Activar drops de jefes",
+  "alaloot.configuration.dragonEggStackSize": "Tamaño de pila del huevo del dragón",
+  "alaloot.configuration.witherStarStackSize": "Tamaño de pila de la estrella del Wither",
+  "alaloot.configuration.wardenDiamondStackSize": "Tamaño de pila de diamantes del Warden",
+  "alaloot.configuration.elderGuardianSpongeStackSize": "Tamaño de pila de esponjas del Guardián Mayor",
+  "alaloot.configuration.enableDragonDrop": "Activar drop del Dragón del End",
+  "alaloot.configuration.enableWitherDrop": "Activar drop del Wither",
+  "alaloot.configuration.enableWardenDrop": "Activar drop del Warden",
+  "alaloot.configuration.enableElderGuardianDrop": "Activar drop del Guardián Mayor",
+  "alaloot.configuration.mobBlacklist": "Lista negra de mobs",
+  "alaloot.configuration.blockBlacklist": "Lista negra de bloques",
+  "alaloot.configuration.itemDropBlacklist": "Lista negra de objetos",
+  "alaloot.configuration.modBlacklist": "Lista negra de mods"
 }

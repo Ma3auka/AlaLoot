@@ -6,10 +6,13 @@ import com.ma3auka.alaloot.util.RandomItemHelper;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -17,7 +20,17 @@ import net.neoforged.neoforge.event.entity.living.LivingDropsEvent;
 
 @EventBusSubscriber(modid = AlaLoot.MODID)
 public final class MobLootEventHandler {
-    private static final int MOB_XP_REWARD = 10;
+    private static final int MOB_XP_REWARD = 30;
+    private static final double CURSE_CHANCE = 0.05;
+
+    private static final Item[] CURSE_TOOLS = {
+        Items.WOODEN_SWORD,   Items.WOODEN_PICKAXE,   Items.WOODEN_AXE,   Items.WOODEN_SHOVEL,   Items.WOODEN_HOE,
+        Items.STONE_SWORD,    Items.STONE_PICKAXE,    Items.STONE_AXE,    Items.STONE_SHOVEL,    Items.STONE_HOE,
+        Items.IRON_SWORD,     Items.IRON_PICKAXE,     Items.IRON_AXE,     Items.IRON_SHOVEL,     Items.IRON_HOE,
+        Items.GOLDEN_SWORD,   Items.GOLDEN_PICKAXE,   Items.GOLDEN_AXE,   Items.GOLDEN_SHOVEL,   Items.GOLDEN_HOE,
+        Items.DIAMOND_SWORD,  Items.DIAMOND_PICKAXE,  Items.DIAMOND_AXE,  Items.DIAMOND_SHOVEL,  Items.DIAMOND_HOE,
+        Items.NETHERITE_SWORD, Items.NETHERITE_PICKAXE, Items.NETHERITE_AXE, Items.NETHERITE_SHOVEL, Items.NETHERITE_HOE
+    };
 
     private MobLootEventHandler() {}
 
@@ -49,9 +62,21 @@ public final class MobLootEventHandler {
                 ie.setDefaultPickUpDelay();
                 event.getDrops().add(ie);
             }
+        } else if (level.getRandom().nextDouble() < CURSE_CHANCE) {
+            ItemStack cursed = makeCursedStack(level.getRandom());
+            ItemEntity ie = new ItemEntity(level, entity.getX(), entity.getY() + 0.25, entity.getZ(), cursed);
+            ie.setDefaultPickUpDelay();
+            event.getDrops().add(ie);
         }
 
         grantXp(player);
+    }
+
+    private static ItemStack makeCursedStack(RandomSource random) {
+        Item tool = CURSE_TOOLS[random.nextInt(CURSE_TOOLS.length)];
+        ItemStack stack = new ItemStack(tool);
+        stack.setDamageValue(stack.getMaxDamage() - 1);
+        return stack;
     }
 
     private static void grantXp(Player player) {
@@ -69,5 +94,9 @@ public final class MobLootEventHandler {
     public static double currentChance(Player player) {
         if (player == null) return 0.0;
         return Math.min(player.experienceLevel, 100) / 100.0;
+    }
+
+    public static double curseChance() {
+        return CURSE_CHANCE;
     }
 }

@@ -14,6 +14,7 @@
   "commands.alaloot.stats.level": "XP-Stufe: %s",
   "commands.alaloot.stats.chance": "Drop-Chance: %s%% (entspricht deiner XP-Stufe, maximal 100)",
   "commands.alaloot.stats.pool": "Gegenstände im Pool: %s",
+  "commands.alaloot.stats.curse": "Fluch-Roll: %s%% (bei fehlgeschlagenem Drop)",
 
   "commands.alaloot.info.held": "In der Hand: %s",
   "commands.alaloot.info.held_empty": "Hand ist leer.",
@@ -30,5 +31,34 @@
   "commands.alaloot.blacklist.not_found": "Nicht in der Blacklist: %s",
 
   "alaloot.configuration.title": "AlaLoot",
-  "alaloot.configuration.section.alaloot.server.toml": "AlaLoot-Servereinstellungen"
+  "alaloot.configuration.section.alaloot.server.toml": "AlaLoot-Servereinstellungen",
+
+  "alaloot.configuration.general": "Allgemein",
+
+  "alaloot.configuration.mobs": "Monster",
+
+  "alaloot.configuration.blocks": "Blöcke",
+
+  "alaloot.configuration.bosses": "Bosse",
+
+  "alaloot.configuration.blacklist": "Blacklist",
+
+  "alaloot.configuration.enabled": "AlaLoot aktivieren",
+  "alaloot.configuration.enableMobDrop": "Monster-Drops aktivieren",
+  "alaloot.configuration.enableBlockDrop": "Block-Drops aktivieren",
+  "alaloot.configuration.enableNetherBlocks": "Nether-Block-Drops aktivieren",
+  "alaloot.configuration.enableEndBlocks": "End-Block-Drops aktivieren",
+  "alaloot.configuration.enableBossDrops": "Boss-Drops aktivieren",
+  "alaloot.configuration.dragonEggStackSize": "Dracheneier-Stapelgröße",
+  "alaloot.configuration.witherStarStackSize": "Witherstern-Stapelgröße",
+  "alaloot.configuration.wardenDiamondStackSize": "Warden-Diamant-Stapelgröße",
+  "alaloot.configuration.elderGuardianSpongeStackSize": "Älterer-Wächter-Schwamm-Stapelgröße",
+  "alaloot.configuration.enableDragonDrop": "Enderdrachen-Drop aktivieren",
+  "alaloot.configuration.enableWitherDrop": "Wither-Drop aktivieren",
+  "alaloot.configuration.enableWardenDrop": "Warden-Drop aktivieren",
+  "alaloot.configuration.enableElderGuardianDrop": "Älterer-Wächter-Drop aktivieren",
+  "alaloot.configuration.mobBlacklist": "Monster-Blacklist",
+  "alaloot.configuration.blockBlacklist": "Block-Blacklist",
+  "alaloot.configuration.itemDropBlacklist": "Gegenstands-Blacklist",
+  "alaloot.configuration.modBlacklist": "Mod-Blacklist"
 }

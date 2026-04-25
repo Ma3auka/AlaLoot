@@ -14,6 +14,7 @@
   "commands.alaloot.stats.level": "Рівень XP: %s",
   "commands.alaloot.stats.chance": "Шанс дропу: %s%% (дорівнює рівню XP, максимум 100)",
   "commands.alaloot.stats.pool": "Предметів у пулі: %s",
+  "commands.alaloot.stats.curse": "Проклятий кидок: %s%% (якщо дроп не випав)",
 
   "commands.alaloot.info.held": "У руці: %s",
   "commands.alaloot.info.held_empty": "Рука порожня.",
@@ -30,5 +31,34 @@
   "commands.alaloot.blacklist.not_found": "У blacklist'і не знайдено: %s",
 
   "alaloot.configuration.title": "AlaLoot",
-  "alaloot.configuration.section.alaloot.server.toml": "Налаштування сервера AlaLoot"
+  "alaloot.configuration.section.alaloot.server.toml": "Налаштування сервера AlaLoot",
+
+  "alaloot.configuration.general": "Основні",
+
+  "alaloot.configuration.mobs": "Моби",
+
+  "alaloot.configuration.blocks": "Блоки",
+
+  "alaloot.configuration.bosses": "Боси",
+
+  "alaloot.configuration.blacklist": "Чорний список",
+
+  "alaloot.configuration.enabled": "Увімкнути AlaLoot",
+  "alaloot.configuration.enableMobDrop": "Дроп з мобів",
+  "alaloot.configuration.enableBlockDrop": "Дроп з блоків",
+  "alaloot.configuration.enableNetherBlocks": "Дроп з блоків Незера",
+  "alaloot.configuration.enableEndBlocks": "Дроп з блоків Краю",
+  "alaloot.configuration.enableBossDrops": "Дроп з босів",
+  "alaloot.configuration.dragonEggStackSize": "Розмір стека яйця дракона",
+  "alaloot.configuration.witherStarStackSize": "Розмір стека зірки виснажувача",
+  "alaloot.configuration.wardenDiamondStackSize": "Розмір стека алмазів зі Стража",
+  "alaloot.configuration.elderGuardianSpongeStackSize": "Розмір стека губок зі Старшого вартового",
+  "alaloot.configuration.enableDragonDrop": "Дроп з Дракона Краю",
+  "alaloot.configuration.enableWitherDrop": "Дроп з Виснажувача",
+  "alaloot.configuration.enableWardenDrop": "Дроп зі Стража",
+  "alaloot.configuration.enableElderGuardianDrop": "Дроп зі Старшого вартового",
+  "alaloot.configuration.mobBlacklist": "Чорний список мобів",
+  "alaloot.configuration.blockBlacklist": "Чорний список блоків",
+  "alaloot.configuration.itemDropBlacklist": "Чорний список предметів",
+  "alaloot.configuration.modBlacklist": "Чорний список модів"
 }

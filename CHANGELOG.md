@@ -12,6 +12,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] — 2026-04-25
+
+### Added
+- Curse Roll: 5% passive chance on mob kill to drop a random damaged tool (wooden through netherite, 1 durability remaining) when the XP-based loot roll fails.
+
+### Changed
+- Mob kill XP reward increased from 10 to 30 points per kill.
+- `/alaloot stats` now shows the Curse Roll probability.
+
+### Fixed
+- Config screen displayed raw `alaloot.configuration.*` translation keys — added readable labels for all sections and entries across all 8 locales (en, ru, de, es, fr, pt, uk, zh).
+
+### Internal
+- Remove dead hierarchical translation keys from lang files.
+
+## [1.2.4] — 2026-04-25
+
+### Fixed
+- Remove dead hierarchical translation keys from all 8 lang files (leftover from v1.2.1 first-pass attempt).
+
+### Changed
+- Add Curse Roll probability line to `/alaloot stats` output.
+
+## [1.2.3] — 2026-04-25
+
+### Added
+- Add Curse Roll: 5% passive chance on mob kill to drop a random tool (wooden–netherite) at 1 durability when the XP-based loot roll fails.
+
+## [1.2.2] — 2026-04-25
+
+### Fixed
+- Config screen entries now display translated labels (flat `alaloot.configuration.*` key format) for all 8 locales.
+
+## [1.2.1] — 2026-04-25
+
+### Changed
+- Increase mob kill XP reward from 10 to 30 points per kill.
+
+### Fixed
+- Config screen displayed raw `alaloot.configuration.*` keys instead of readable text — added translations for all sections and entries across all 8 locales.
+
 ## [1.2.0] — 2026-04-25
 
 ### Added

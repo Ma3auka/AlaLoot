@@ -14,6 +14,7 @@
   "commands.alaloot.stats.level": "经验等级:%s",
   "commands.alaloot.stats.chance": "掉落几率:%s%%(等于你的经验等级,上限 100)",
   "commands.alaloot.stats.pool": "池中物品数:%s",
+  "commands.alaloot.stats.curse": "诅咒掷骰：%s%%（普通掉落未触发时）",
 
   "commands.alaloot.info.held": "手持:%s",
   "commands.alaloot.info.held_empty": "手中为空。",
@@ -30,5 +31,34 @@
   "commands.alaloot.blacklist.not_found": "不在黑名单中:%s",
 
   "alaloot.configuration.title": "AlaLoot",
-  "alaloot.configuration.section.alaloot.server.toml": "AlaLoot 服务器设置"
+  "alaloot.configuration.section.alaloot.server.toml": "AlaLoot 服务器设置",
+
+  "alaloot.configuration.general": "常规",
+
+  "alaloot.configuration.mobs": "怪物",
+
+  "alaloot.configuration.blocks": "方块",
+
+  "alaloot.configuration.bosses": "Boss",
+
+  "alaloot.configuration.blacklist": "黑名单",
+
+  "alaloot.configuration.enabled": "启用 AlaLoot",
+  "alaloot.configuration.enableMobDrop": "启用怪物掉落",
+  "alaloot.configuration.enableBlockDrop": "启用方块掉落",
+  "alaloot.configuration.enableNetherBlocks": "启用下界方块掉落",
+  "alaloot.configuration.enableEndBlocks": "启用末地方块掉落",
+  "alaloot.configuration.enableBossDrops": "启用 Boss 掉落",
+  "alaloot.configuration.dragonEggStackSize": "龙蛋堆叠上限",
+  "alaloot.configuration.witherStarStackSize": "凋零之星堆叠上限",
+  "alaloot.configuration.wardenDiamondStackSize": "监守者钻石堆叠上限",
+  "alaloot.configuration.elderGuardianSpongeStackSize": "远古守卫者海绵堆叠上限",
+  "alaloot.configuration.enableDragonDrop": "启用末影龙掉落",
+  "alaloot.configuration.enableWitherDrop": "启用凋零掉落",
+  "alaloot.configuration.enableWardenDrop": "启用监守者掉落",
+  "alaloot.configuration.enableElderGuardianDrop": "启用远古守卫者掉落",
+  "alaloot.configuration.mobBlacklist": "怪物黑名单",
+  "alaloot.configuration.blockBlacklist": "方块黑名单",
+  "alaloot.configuration.itemDropBlacklist": "掉落物黑名单",
+  "alaloot.configuration.modBlacklist": "模组黑名单"
 }

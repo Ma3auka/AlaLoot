@@ -1,10 +1,15 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/alaloot",
   "promos": {
-    "26.1.2-recommended": "1.2.0",
-    "26.1.2-latest": "1.2.0"
+    "26.1.2-recommended": "1.3.0",
+    "26.1.2-latest": "1.3.0"
   },
   "26.1.2": {
+    "1.3.0": "Add Curse Roll feature, increase mob XP reward, fix config screen labels across 8 locales.",
+    "1.2.4": "Remove dead lang keys; show Curse Roll chance in /alaloot stats.",
+    "1.2.3": "Add Curse Roll: 5% chance to drop a damaged tool when loot roll fails.",
+    "1.2.2": "Fix config screen entry labels for all 8 locales.",
+    "1.2.1": "Increase mob kill XP reward (10 -> 30). Fix config screen translation keys.",
     "1.2.0": "Initial public release. See CHANGELOG.md for full notes."
   }
 }
