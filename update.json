@@ -1,0 +1,10 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/alaloot",
+  "promos": {
+    "26.1.2-recommended": "1.2.0",
+    "26.1.2-latest": "1.2.0"
+  },
+  "26.1.2": {
+    "1.2.0": "Initial public release. See CHANGELOG.md for full notes."
+  }
+}

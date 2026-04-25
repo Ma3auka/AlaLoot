@@ -1,0 +1,34 @@
+{
+  "alaloot.category.earth_stone": "Земля/Камінь",
+  "alaloot.category.ore": "Руда",
+  "alaloot.category.wood_nature": "Дерево/Природа",
+  "alaloot.category.building": "Будівлі",
+  "alaloot.category.nether": "Незер",
+  "alaloot.category.end": "Край",
+
+  "commands.alaloot.error.player_only": "Команду може виконати лише гравець.",
+
+  "commands.alaloot.reload.success": "AlaLoot: пул перебудовано, конфіг перечитано.",
+
+  "commands.alaloot.stats.header": "── Статистика AlaLoot ──",
+  "commands.alaloot.stats.level": "Рівень XP: %s",
+  "commands.alaloot.stats.chance": "Шанс дропу: %s%% (дорівнює рівню XP, максимум 100)",
+  "commands.alaloot.stats.pool": "Предметів у пулі: %s",
+
+  "commands.alaloot.info.held": "У руці: %s",
+  "commands.alaloot.info.held_empty": "Рука порожня.",
+  "commands.alaloot.info.block": "Перед поглядом: %s — категорія %s",
+  "commands.alaloot.info.no_block": "Не дивишся на блок.",
+
+  "commands.alaloot.toggle.unknown": "Невідома ціль перемикача: %s",
+  "commands.alaloot.toggle.set": "%s = %s",
+
+  "commands.alaloot.blacklist.unknown_type": "Невідомий тип blacklist'у: %s",
+  "commands.alaloot.blacklist.added": "Додано до blacklist (%s): %s",
+  "commands.alaloot.blacklist.removed": "Видалено з blacklist (%s): %s",
+  "commands.alaloot.blacklist.already": "Вже у blacklist'і: %s",
+  "commands.alaloot.blacklist.not_found": "У blacklist'і не знайдено: %s",
+
+  "alaloot.configuration.title": "AlaLoot",
+  "alaloot.configuration.section.alaloot.server.toml": "Налаштування сервера AlaLoot"
+}

@@ -1,0 +1,34 @@
+{
+  "alaloot.category.earth_stone": "Terre/Pierre",
+  "alaloot.category.ore": "Minerai",
+  "alaloot.category.wood_nature": "Bois/Nature",
+  "alaloot.category.building": "Construction",
+  "alaloot.category.nether": "Nether",
+  "alaloot.category.end": "End",
+
+  "commands.alaloot.error.player_only": "Cette commande ne peut être exécutée que par un joueur.",
+
+  "commands.alaloot.reload.success": "AlaLoot : pool reconstruit, configuration rechargée.",
+
+  "commands.alaloot.stats.header": "── Statistiques d'AlaLoot ──",
+  "commands.alaloot.stats.level": "Niveau d'XP : %s",
+  "commands.alaloot.stats.chance": "Chance de drop : %s%% (égale à ton niveau d'XP, plafonnée à 100)",
+  "commands.alaloot.stats.pool": "Objets dans le pool : %s",
+
+  "commands.alaloot.info.held": "En main : %s",
+  "commands.alaloot.info.held_empty": "Main vide.",
+  "commands.alaloot.info.block": "Cible : %s — catégorie %s",
+  "commands.alaloot.info.no_block": "Tu ne regardes aucun bloc.",
+
+  "commands.alaloot.toggle.unknown": "Cible de bascule inconnue : %s",
+  "commands.alaloot.toggle.set": "%s = %s",
+
+  "commands.alaloot.blacklist.unknown_type": "Type de liste noire inconnu : %s",
+  "commands.alaloot.blacklist.added": "Ajouté à la liste noire %s : %s",
+  "commands.alaloot.blacklist.removed": "Retiré de la liste noire %s : %s",
+  "commands.alaloot.blacklist.already": "Déjà dans la liste noire : %s",
+  "commands.alaloot.blacklist.not_found": "Pas dans la liste noire : %s",
+
+  "alaloot.configuration.title": "AlaLoot",
+  "alaloot.configuration.section.alaloot.server.toml": "Paramètres serveur d'AlaLoot"
+}

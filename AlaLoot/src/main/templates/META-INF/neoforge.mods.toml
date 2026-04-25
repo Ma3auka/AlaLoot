@@ -1,0 +1,31 @@
+license="${mod_license}"
+issueTrackerURL="${issue_tracker_url}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+updateJSONURL="${update_json_url}"
+displayURL="${display_url}"
+logoFile="logo.png"
+credits="${mod_credits}"
+authors="${mod_authors}"
+description='''
+Replaces vanilla loot with random items from the full item registry.
+Drop chance equals your XP level (1 lvl = 1%, capped at 100%).
+Boss kills give fixed legendary stacks. Server-side, fully configurable.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

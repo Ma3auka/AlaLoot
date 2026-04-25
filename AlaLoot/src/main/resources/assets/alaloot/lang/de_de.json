@@ -1,0 +1,34 @@
+{
+  "alaloot.category.earth_stone": "Erde/Stein",
+  "alaloot.category.ore": "Erz",
+  "alaloot.category.wood_nature": "Holz/Natur",
+  "alaloot.category.building": "Baublöcke",
+  "alaloot.category.nether": "Nether",
+  "alaloot.category.end": "Ende",
+
+  "commands.alaloot.error.player_only": "Dieser Befehl kann nur von einem Spieler ausgeführt werden.",
+
+  "commands.alaloot.reload.success": "AlaLoot: Pool neu aufgebaut, Konfiguration neu geladen.",
+
+  "commands.alaloot.stats.header": "── AlaLoot-Statistik ──",
+  "commands.alaloot.stats.level": "XP-Stufe: %s",
+  "commands.alaloot.stats.chance": "Drop-Chance: %s%% (entspricht deiner XP-Stufe, maximal 100)",
+  "commands.alaloot.stats.pool": "Gegenstände im Pool: %s",
+
+  "commands.alaloot.info.held": "In der Hand: %s",
+  "commands.alaloot.info.held_empty": "Hand ist leer.",
+  "commands.alaloot.info.block": "Im Blick: %s — Kategorie %s",
+  "commands.alaloot.info.no_block": "Du schaust auf keinen Block.",
+
+  "commands.alaloot.toggle.unknown": "Unbekanntes Umschaltziel: %s",
+  "commands.alaloot.toggle.set": "%s = %s",
+
+  "commands.alaloot.blacklist.unknown_type": "Unbekannter Blacklist-Typ: %s",
+  "commands.alaloot.blacklist.added": "Zur %s-Blacklist hinzugefügt: %s",
+  "commands.alaloot.blacklist.removed": "Aus %s-Blacklist entfernt: %s",
+  "commands.alaloot.blacklist.already": "Bereits in der Blacklist: %s",
+  "commands.alaloot.blacklist.not_found": "Nicht in der Blacklist: %s",
+
+  "alaloot.configuration.title": "AlaLoot",
+  "alaloot.configuration.section.alaloot.server.toml": "AlaLoot-Servereinstellungen"
+}

@@ -1,0 +1,55 @@
+# Build artifacts
+.gradle/
+build/
+out/
+bin/
+**/build/
+**/out/
+**/bin/
+repo/
+run/
+runs/
+run-data/
+src/generated/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.*
+*.local
+secrets/
+
+# Local notes & internal planning (not part of the public release)
+NOTES.md
+.notes/
+.local/
+*_DEPLOY_PLAN.md
+*_RELEASE_CHECKLIST.md
+BEST_PRACTICES.md
+DEV_SETUP.md
+TECH_STACK.md
+MOD_CONCEPT.md
+PRD.md
+.alaloot-build.env
+neoforge-installer.jar.log
+
+# Tool caches
+.cache/
