@@ -21,9 +21,8 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.permissions.Permissions;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
@@ -54,17 +53,17 @@ public final class AlaLootCommand {
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
         LiteralArgumentBuilder<CommandSourceStack> root = Commands.literal("alaloot")
             .then(Commands.literal("reload")
-                .requires(s -> s.permissions().hasPermission(Permissions.COMMANDS_GAMEMASTER))
+                .requires(s -> s.hasPermission(2))
                 .executes(AlaLootCommand::cmdReload))
             .then(Commands.literal("stats").executes(AlaLootCommand::cmdStats))
             .then(Commands.literal("info").executes(AlaLootCommand::cmdInfo))
             .then(Commands.literal("toggle")
-                .requires(s -> s.permissions().hasPermission(Permissions.COMMANDS_GAMEMASTER))
+                .requires(s -> s.hasPermission(2))
                 .then(Commands.argument("target", StringArgumentType.word())
                     .suggests(TOGGLE_TARGETS)
                     .executes(AlaLootCommand::cmdToggle)))
             .then(Commands.literal("blacklist")
-                .requires(s -> s.permissions().hasPermission(Permissions.COMMANDS_GAMEMASTER))
+                .requires(s -> s.hasPermission(2))
                 .then(Commands.literal("add")
                     .then(Commands.argument("type", StringArgumentType.word())
                         .suggests(BLACKLIST_TYPES)
@@ -124,7 +123,7 @@ public final class AlaLootCommand {
             BlockPos pos = bhr.getBlockPos();
             BlockState state = player.level().getBlockState(pos);
             BlockCategoryHelper.Category cat = BlockCategoryHelper.classify(state);
-            Identifier id = BuiltInRegistries.BLOCK.getKey(state.getBlock());
+            ResourceLocation id = BuiltInRegistries.BLOCK.getKey(state.getBlock());
             ctx.getSource().sendSuccess(() ->
                     tr("commands.alaloot.info.block",
                             Component.literal(String.valueOf(id)),

@@ -1,6 +1,6 @@
 package com.ma3auka.alaloot.util;
 
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -10,7 +10,7 @@ public final class BlockCategoryHelper {
     private BlockCategoryHelper() {}
 
     public static Category classify(BlockState state) {
-        Identifier id = net.minecraft.core.registries.BuiltInRegistries.BLOCK.getKey(state.getBlock());
+        ResourceLocation id = net.minecraft.core.registries.BuiltInRegistries.BLOCK.getKey(state.getBlock());
         String path = id == null ? "" : id.getPath();
 
         // End first

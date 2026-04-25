@@ -5,7 +5,7 @@ import com.ma3auka.alaloot.config.AlaLootConfig;
 import com.ma3auka.alaloot.util.RandomItemHelper;
 
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -50,7 +50,7 @@ public final class MobLootEventHandler {
 
         if (!AlaLootConfig.ENABLE_MOB_DROP.get()) return;
 
-        Identifier mobId = BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType());
+        ResourceLocation mobId = BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType());
         if (mobId != null && AlaLootConfig.MOB_BLACKLIST.get().contains(mobId.toString())) return;
 
         event.getDrops().clear();

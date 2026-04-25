@@ -7,7 +7,7 @@ import com.ma3auka.alaloot.AlaLoot;
 import com.ma3auka.alaloot.config.AlaLootConfig;
 
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -32,7 +32,7 @@ public final class RandomItemHelper {
         for (Item item : BuiltInRegistries.ITEM) {
             if (item == Items.AIR) continue;
             total++;
-            Identifier id = BuiltInRegistries.ITEM.getKey(item);
+            ResourceLocation id = BuiltInRegistries.ITEM.getKey(item);
             if (id != null) {
                 if (itemBlacklist.contains(id.toString())) { skipped++; continue; }
                 if (modBlacklist.contains(id.getNamespace())) { skipped++; continue; }

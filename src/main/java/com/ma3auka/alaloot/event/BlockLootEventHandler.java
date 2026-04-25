@@ -6,7 +6,7 @@ import com.ma3auka.alaloot.util.BlockCategoryHelper;
 import com.ma3auka.alaloot.util.RandomItemHelper;
 
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
@@ -31,7 +31,7 @@ public final class BlockLootEventHandler {
         if (!AlaLootConfig.ENABLE_BLOCK_DROP.get()) return;
 
         BlockState state = event.getState();
-        Identifier blockId = BuiltInRegistries.BLOCK.getKey(state.getBlock());
+        ResourceLocation blockId = BuiltInRegistries.BLOCK.getKey(state.getBlock());
         if (blockId != null && AlaLootConfig.BLOCK_BLACKLIST.get().contains(blockId.toString())) return;
 
         BlockCategoryHelper.Category cat = BlockCategoryHelper.classify(state);
